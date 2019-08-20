@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>IT-Цитрус</title>
+  <link rel="stylesheet" type="text/css" href="loading.css"/>
+
+  <style type="text/css">
+      .window{
+      max-width:320px;
+      padding:20px;
+      top:-50%;
+      transition: 1s;
+      right: 0;
+      left: 0;
+      background:#000; 
+      box-shadow: 0 -5px 0 #3adbfd;
+      background-size: 100%;
+      margin: -150px 0 0 -190px;
+    }
+    .preloader{
+      position: fixed;
+      background:#fff;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: 9999;
+    }
+    .preloader > div{
+      position: relative;
+      left: 50%;
+      top: 50%;
+      margin: -75px 0 0 -75px;
+    }
+    .preloader img{
+      width: 150px;
+      height: 150px;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="preloader">
+    <div>
+      <img src="tsitrus.png " class="ld 
+ld-bounce">
+    </div>
+  </div>
+
+  <div class="window mx-auto  text-center position-fixed">
+    <div class="close" style="cursor: pointer"></div>
+    <img src="tsitrus.png" class="ld 
+ld-cycle " style="width: 120px;
+    animation-duration:50.0s;
+    height: 120px;
+    margin: -60px 0 30px 0;
+    border-radius: 50%;">
+    <p class="text-white ps" >Оставте свои контакты , и мы свяжемся с вами!</p>
+    <i class="fa fa-user mr-2" style="color: white;"></i>
+    <input required type="text" name="name" placeholder="Ф.И.О." class="mb-3 input" style="border-bottom: 2px solid #6ee9fd; border-radius: 5px; padding: 5px 20px; text-transform: capitalize;"></br>
+    <form>
+    <i class="fa fa-phone mr-2" style="color: white;"></i>
+    <input id="inp" required type="" name="tel" placeholder="Телефон" class="mb-3 input" style="border-bottom: 2px solid #6ee9fd; border-radius: 5px; padding: 5px 20px;" pattern="2[0-9]{3}-[0-9]{3}"><div></div>
+  </br>
+  </form>
+      <button class="bt gradient-border" style="padding:13px 30px;margin: 5px 0 20px  0;
+      font-size: 15px; color: #fff; border:none; border-radius: 5px;">Подтвердить</button>
+  </div>
+  <div class="header">
+      <h1 class="font-weight-bold" style="padding-top:20px;"><a href="http://it-citrus.ru"><img src="tsitrus.png"></a>Цитрус</h1>
+  </div>
+      <div style="width:50px; height: 30px; box-shadow: 2px 2px 2px 1px black;  " class="hover-menu rounded fixed-top">
+          <div class="fa fa-bars text-dark ml-3" style="width: 100%; "></div>
+      
+          <div class="menu ">
+              <nav class="dws-menu">
+                    <ul style="box-shadow: 2px 2px 2px 1px black;">
+                        <li style="width: 200px;"><a><i class="fa fa-shopping-cart"></i>Магазин</a>
+                              <ul style="box-shadow: 2px 2px 2px 1px black;">
+                                <li><a href="http://shop.it-citrus.ru/#m-footer">Мы рекомендуем</a></li>
+                                <li><a href="http://shop.it-citrus.ru/#m-center">Новые товары</a></li>
+                                <li><a href="http://shop.it-citrus.ru/#m-header">В наличее</a></li>
+                              </ul>
+                        </li>
+                        <li><a href="http://service.it-citrus.ru/"><i class="fa fa-info-circle"></i>IT</a>
+                        </li>
+                        <li style="width: 200px;"><a><i class="fa fa-mobile"></i>Контакты</a>
+                              <ul style="box-shadow: 2px 2px 2px 1px black;">
+                                <li><a href="https://www.instagram.com/it_citrus_ru/">Instagram</a></li>
+                                <li><a href="https://vk.com/it_citrus">Vk</a></li>
+                                <li><a href="https://twitter.com/IT_CITRUS">twitter</a></li>
+                              </ul>
+                        </li>
+                        <li><a href="https://molostvovvlad.github.io/tsitrusTeamViwerInfo/"><i class="fa fa-users"></i>удаленная помощь</a>
+                        </li>
+                    </ul>
+              </nav>
+          </div>
+      </div>
+        <div class="bg-white w-50 mx-auto texz container " style="box-shadow: 2px 2px 2px 1px black;border-radius: 30px; ">
+              <h2 style="font-size: 25px; margin-left:  10px;" class="font-weight-bold">Для населения и юридических лиц, настройка сетевого оборудования:</h2>
+                  <h6 class="" style="margin: 20px;">-Базовая настройка роутера, Wi-Fi, модема (подходит для дома и офиса) - 500 р.</h6>
+                  <h6 class="" style=" margin: 20px;">-Настройка шейпера (равномерное деление скорости между клиентами) - от 500 р.</h6>
+                  <h6 class="" style=" margin: 20px;">-Настройка резервирования двух и более каналов связи (два провайдера)- от 500 р.</h6>
+                  <h6 class="" style=" margin: 20px;">-Настройка IP VPN (объединение филиалов через интернет в локальную сеть)- от 500 р.</h6>
+                  <h6 class="" style=" margin: 20px;">-Настройка уличных Wi-Fi мостов (без юстировки, монтажных работ и выезда)- от 500 р.</h6>
+                  <h6 class="" style=" margin: 20px;">-Настройка уличной базовой станции (без монтажных работ и выезда) - от 1 000 р.</h6>
+                  <h6 class="" style=" margin: 20px;">-Настройка уличного клиентского Wi-Fi устройства (без монтажа и выезда) - от 500 р.</h6>
+                  <h6 class="" style=" margin: 20px;">Не перечисленные варианты конфигураций и монтаж рассчитываются индивидуально.</h6>
+              <h2 style="font-size: 25px;margin-left:  10px;" class="font-weight-bold mt-3">
+                	Контакты:
+                </h2>
+                  <h6 class="" style=" margin: 20px;">
+                  Дальний восток и восточная Сибирь: 8(4112)-25-49-49 (доб.1)</h6>
+                  <h6 class="" style=" margin: 20px;">
+                  Остальная Россия: 8-988-139-32-58)</h6>
+                  <div style="margin: 20px;">
+                    <a href="http://shop.it-citrus.ru" style="font-size: 15px;">Магазин сетевого оборудования.</a>
+                    <a href="http://feedlikes.ru" style="font-size: 15px; margin-left: 10px; ">Интернет в Анапе</a>
+                    <a href="http://service.it-citrus.ru/pages/internet_v_anape/" style="font-size: 15px; margin-left: 10px; ">Wi-FiАвторизация.</a>
+                  </div>  
+              <h2 style="font-size: 25px; margin-left: 10px;" class="font-weight-bold">Задачи и цели сетевого администрирования.</h2>
+                  <h6 class="" style=" margin: 20px;">Современные корпоративные информационные системы по своей природе всегда являются распределенными системами. Рабочие станции пользователей, серверы приложений, серверы баз данных и прочие сетевые узлы распределены по большой территории. В крупной компании офисы и площадки соединены различными видами коммуникаций, использующих различные технологии и сетевые устройства. Главная задача сетевого администратора — обеспечить надежную, бесперебойную, производительную и безопасную работу всей этой сложной системы.
+            		  Будем рассматривать сеть как совокупность программных, аппаратных и коммуникационных средств, обеспечивающих эффективное распределение вычислительных ресурсов. Все сети можно условно разделить на 3 категории:.</h6>
+            		   <h6 class="" style=" margin: 20px;">• локальные сети (LAN, Local Area Network);</h6>
+            		   <h6 class="" style=" margin: 20px;">• глобальные сети (WAN, Wide Area Network);.</h6>
+            		   <h6 class="" style=" margin: 20px;">• городские сети (MAN, Metropolitan Area Network).</h6>
+            		   <h6 class="" style=" margin: 20px;">Глобальные сети позволяют организовать взаимодействие между абонентами на больших расстояниях. Эти сети работают на относительно низких скоростях и могут вносить значительные задержки в передачу информации. Протяженность глобальных сетей может составлять тысячи километров. Поэтому они так или иначе интегрированы с сетями масштаба страны.</h6>
+            		   <h6 class="" style=" margin: 20px;">Городские сети позволяют взаимодействовать на территориальных образованиях меньших размеров и работают на скоростях от средних до высоких. Они меньше замедляют передачу данных, чем глобальные, но не могут обеспечить высокоскоростное взаимодействие на больших расстояниях. Протяженность городских сетей находится в переделах от нескольких километров до десятков и сотен километров.</h6>
+            		   <h6 class="" style=" margin: 20px;">Локальные сети обеспечивают наивысшую скорость обмена информацией между компьютерами. Типичная локальная сеть занимает пространство в одно здание. Протяженность локальных сетей составляет около одного километра. Их основное назначение состоит в объединении компьютеров (как правило, одной компании или организации) для совместной работы.
+            		   Механизмы передачи данных в локальных и глобальных сетях существенно отличаются. Глобальные сети ориентированы на соединение — до начала передачи данных между абонентами устанавливается соединение (сеанс). В локальных сетях используются методы, не требующие предварительной установки соединения, — пакет с данными посылается без подтверждения готовности получателя к обмену.</h6>
+            		   <h6 class="" style=" margin: 20px;">Кроме разницы в скорости передачи данных, между этими категориями сетей существуют и другие отличия. В локальных сетях каждый компьютер имеет сетевой адаптер, который соединяет его со средой передачи. Городские сети содержат активные коммутирующие устройства, а глобальные сети обычно состоят из групп мощных маршрутизаторов пакетов, объединенных каналами связи. Кроме того, сети могут быть частными или сетями общего пользования.
+            		   Сетевая инфраструктура строится из различных компонент, которые условно можно разнести по следующим уровням:</h6>
+            		   <h6 class="" style=" margin: 20px;">• кабельная система и средства коммуникаций;</h6>
+            		   <h6 class="" style=" margin: 20px;">• активное сетевое оборудование;</h6>
+            		   <h6 class="" style=" margin: 20px;">• сетевые протоколы;</h6>
+            		   <h6 class="" style=" margin: 20px;">• сетевые службы;</h6>
+            		   <h6 class="" style=" margin: 20px;">• сетевые приложения.</h6>
+            		   <h6 class="" style=" margin: 20px;">Каждый из этих уровней может состоять из различных подуровней и компонент. Например, кабельные системы могут быть построены на основе коаксиального кабеля («толстого» или тонкого»), витой пары (экранированной и неэкранированной), оптоволокна. Активное сетевое оборудование включает в себя такие виды устройств, как повторители (репитеры), мосты, концентраторы, коммутаторы, маршрутизаторы. В корпоративной сети может быть использован богатый набор сетевых протоколов: TCP/IP, SPX/IPX, NetBEUI, AppleTalk и др. 
+            		   Основу работы сети составляют так называемые сетевые службы (или сервисы). Базовый набор сетевых служб любой корпоративной сети состоит из следующих служб:</h6>
+            		   <h6 class="" style=" margin: 20px;">• службы сетевой инфраструктуры DNS, DHCP, WINS;</h6>
+            		   <h6 class="" style=" margin: 20px;">• службы файлов и печати;</h6>
+            		   <h6 class="" style=" margin: 20px;">• службы каталогов (например, Novell NDS, MS Active Directory);</h6>
+            		   <h6 class="" style=" margin: 20px;">• службы обмена сообщениями;</h6>
+            		   <h6 class="" style=" margin: 20px;">• службы доступа к базам данных.</h6>
+            		   <h6 class="" style=" margin: 20px;">Самый верхний уровень функционирования сети — сетевые приложения.
+            		   Сеть позволяет легко взаимодействовать друг с другом самым различным видам компьютерных систем благодаря стандартизованным методам передачи данных, которые позволяют скрыть от пользователя все многообразие сетей и машин.</h6>
+            		   <h6 class="" style=" margin: 20px;">Все устройства, работающие в одной сети, должны общаться на одном языке – передавать данные в соответствии с общеизвестным алгоритмом в формате, который будет понят другими устройствами. Стандарты – ключевой фактор при объединении сетей.
+            		   Для более строгого описания работы сети разработаны специальные модели. В настоящее время общепринятыми моделями являются модель OSI (Open System Interconnection) и модель TCP/IP (или модель DARPA). Обе модели будут рассмотрены в данном разделе ниже.</h6>
+            		   <h6 class="" style=" margin: 20px;">Прежде чем определить задачи сетевого администрирования в сложной распределенной корпоративной сети, сформулируем определение термина «корпоративная сеть» (КС). Слово «корпорация» означает объединение предприятий, работающих под централизованным управлением и решающих общие задачи. Корпорация является сложной, многопрофильной структурой и вследствие этого имеет распределенную иерархическую систему управления. Кроме того, предприятия, отделения и административные офисы, входящие в корпорацию, как правило, расположены на достаточном удалении друг от друга. Для централизованного управления таким объединением предприятий используется корпоративная сеть.</h6>
+            		   <h6 class="" style=" margin: 20px;">Основная задача КС заключается в обеспечении передачи информации между различными приложениями, используемыми в организации. Под приложением понимается программное обеспечение, которое непосредственно нужно пользователю, например, бухгалтерская программа, программа обработки текстов, электронная почта и т.д. Корпоративная сеть позволяет взаимодействовать приложениям, зачастую расположенным в географически различных областях, и обеспечивает доступ к ним удаленных пользователей. На рис. 1.1 показана обобщенная функциональная схема корпоративной сети.</h6>
+            		   <h6 class="" style=" margin: 20px;">Обязательным компонентом корпоративной сети являются локальные сети, связанные между собой.</h6>
+            		   <h6 class="" style=" margin: 20px;">В общем случае КС состоит из различных отделений, объединенных сетями связи. Они могут быть глобальными (WAN) или городскими (MAN).</h6>
+    		      <div style="text-align: center; margin: 20px;">
+                   <img src="s.png" ></img>
+              </div>
+              <h2 style="font-size: 25px;margin-left:  10px;" class="font-weight-bold mt-3">
+                	О нас
+              </h2>
+                  <h6 class="pb-3" style=" margin: 20px;">
+                  - Наша команда располагает штатом системных администраторов, инженеров и программистов с опытом работы не менее 5 лет, помощниками с опытом работы не менее 2-х лет. 
+            			- Все системные администраторы, инженеры и программисты, перед включением в команду ЦИТРУС, проходят многоступенчатое двухмесячное тестирование на практике. 
+            			- Для тестирования мы содержим собственную распределённую IT инфраструктуру масштабов Якутска.
+            			- Руководитель нашей службой IT аутсорсинга, по совместительству идейный вдохновитель и создатель компании, имеет образование в области информационной безопасности и подходит к обеспечению ИТ безопасности с точки зрения человеческого фактора в первую очередь. Во вторую очередь, но не менее тщательно, рассматривается безопасность программных и аппаратных средств IT инфраструктуры.
+                  </h6>
+        </div>
+        <link rel="icon" type="text/css" href="http://shop.it-citrus.ru/favicon.ico">
+        <link rel="stylesheet" type="text/css" href="index.css">
+        <link rel="stylesheet" type="text/css" href="css/font-awesome.css"><link href="https://fonts.googleapis.com/css?family=Cuprum" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+        <script type="text/javascript">
+
+        $(window).on('load',function(){
+          $('.preloader').delay(3000).fadeOut('slow')
+        });
+
+
+         let wind = document.querySelector(".window")
+         let close = document.querySelector(".close")
+          
+        let proverka = function() {
+          wind.style.top = "40%";
+        };
+        setTimeout(proverka,5000)
+        let btn = document.querySelector(".bt")
+        btn.onclick = function(){
+          wind.style.display = "none";
+        };
+
+        close.onclick = function(){
+          wind.style.display = "none";
+        };
+
+
+        var inp = document.getElementById("inp");
+
+inp.onclick = function() {
+    inp.value = "+";
+}
+
+var old = 0;
+
+inp.onkeydown = function() {
+    var curLen = inp.value.length;
+    
+    if (curLen < old){
+      old--;
+      return;
+      }
+    
+    if (curLen == 2) 
+      inp.value = inp.value + "(";
+      
+    if (curLen == 6)
+      inp.value = inp.value + ")-";
+      
+     if (curLen == 11)
+      inp.value = inp.value + "-"; 
+      
+     if (curLen == 14)
+      inp.value = inp.value + "-";  
+      
+     if (curLen > 16)
+      inp.value = inp.value.substring(0, inp.value.length - 1);
+      
+     old++;
+}
+
+
+        </script>
+
+</body>
+</html>
